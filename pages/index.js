@@ -438,7 +438,7 @@ export default function Home() {
           <div className="wrapper">
             <h1 className="font-bold text-xl text-center mt-5">Contact Us</h1>
             <p className="text-sm text-center">
-              For inquiries or to schedule an appointment, please contact us at:
+              For any inquiries or to schedule an appointment, please fill up the form below:
             </p>
             <form
               method="POST"
@@ -506,6 +506,7 @@ export default function Home() {
                   </option>
                   <option value="job inquiry">Job Inquiry</option>
                   <option value="commendation">Commendation</option>
+                  <option value="commendation">Appointment</option>
                   <option value="complaint">Complaint</option>
                   <option value="service inquiry">Service Inquiry</option>
                   <option value="others">Others</option>
@@ -566,11 +567,7 @@ export default function Home() {
           <div>
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
             <ul>
-              <li className="mb-2">
-                <a href="#home" className="hover:text-gray-400">
-                  Home
-                </a>
-              </li>
+
               <li className="mb-2">
                 <a href="#about" className="hover:text-gray-400">
                   About Us
