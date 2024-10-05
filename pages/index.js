@@ -41,21 +41,42 @@ export default function Home() {
   }, [currentImage]);
   return (
     <>
-     <Head>
-        <title>United Candelaria Doctors Hospital | Compassionate Care for a Healthier Tomorrow</title>
-        <meta name="description" content="At United Candelaria Doctors Hospital, we provide compassionate, patient-centered healthcare to build a healthier tomorrow. Our medical professionals are dedicated to offering personalized and high-quality care for you and your family." />
-        <meta name="keywords" content="United Candelaria Doctors Hospital, healthcare, medical care, compassionate care, patient-centered, hospital in Candelaria, quality healthcare" />
+      <Head>
+        <title>
+          United Candelaria Doctors Hospital | Compassionate Care for a
+          Healthier Tomorrow
+        </title>
+        <meta
+          name="description"
+          content="At United Candelaria Doctors Hospital, we provide compassionate, patient-centered healthcare to build a healthier tomorrow. Our medical professionals are dedicated to offering personalized and high-quality care for you and your family."
+        />
+        <meta
+          name="keywords"
+          content="United Candelaria Doctors Hospital, healthcare, medical care, compassionate care, patient-centered, hospital in Candelaria, quality healthcare"
+        />
         <meta name="author" content="United Candelaria Doctors Hospital" />
-        
-        <meta property="og:title" content="United Candelaria Doctors Hospital | Compassionate Care for a Healthier Tomorrow" />
-        <meta property="og:description" content="We provide compassionate, personalized healthcare at United Candelaria Doctors Hospital, helping build a healthier future for our patients." />
+
+        <meta
+          property="og:title"
+          content="United Candelaria Doctors Hospital | Compassionate Care for a Healthier Tomorrow"
+        />
+        <meta
+          property="og:description"
+          content="We provide compassionate, personalized healthcare at United Candelaria Doctors Hospital, helping build a healthier future for our patients."
+        />
         <meta property="og:image" content="/images/hero-hospital.jpg" />
         <meta property="og:url" content="https://www.ucdhospital.com" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="United Candelaria Doctors Hospital | Compassionate Care for a Healthier Tomorrow" />
-        <meta name="twitter:description" content="Providing patient-centered, compassionate care to promote a healthier future." />
+        <meta
+          name="twitter:title"
+          content="United Candelaria Doctors Hospital | Compassionate Care for a Healthier Tomorrow"
+        />
+        <meta
+          name="twitter:description"
+          content="Providing patient-centered, compassionate care to promote a healthier future."
+        />
         <meta name="twitter:image" content="/images/hero-hospital.jpg" />
 
         <link rel="icon" href="/favicon.ico" />
@@ -93,10 +114,15 @@ export default function Home() {
                 scrollPosition > 20 ? "text-black" : "text-white"
               } `}
             >
-          
-              <li className="px-3"><a href="#about">About</a></li>
-              <li className="px-3"><a href="#services">Services</a></li>
-              <li className="px-3"><a href="#contact">Contact</a></li>
+              <li className="px-3">
+                <a href="#about">About</a>
+              </li>
+              <li className="px-3">
+                <a href="#services">Services</a>
+              </li>
+              <li className="px-3">
+                <a href="#contact">Contact</a>
+              </li>
             </ul>
             <div className="menu md:hidden">
               <motion.svg
@@ -150,7 +176,8 @@ export default function Home() {
         <div className="container text-white inter h-full ">
           <div className="wrapper">
             <h1 className=" serif font-bold text-[30px] pt-[100px] sm:text-[40px] lg:pt-[180px] leading-tight md:text-center">
-              Compassionate <span className="text-red-400">Care</span> for a Healthier Tomorrow
+              Compassionate <span className="text-red-400">Care</span> for a
+              Healthier Tomorrow
             </h1>
             <p className="text-xs sm:text-[16px] leading-tight md:text-center mt-2">
               We believe in providing compassionate, patient-centered care to
@@ -161,23 +188,25 @@ export default function Home() {
               holistic well-being, we are here to guide you on your journey to
               better health.
             </p>
-            <a href="#contact"><button className="flex gap-2 items-center mt-5 md:mx-auto border-[1px] border-slate-100 px-3 py-2  rounded hover:bg-white hover:text-black transition-all">
-              Contact Us
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                />
-              </svg>
-            </button></a>
+            <a href="#contact">
+              <button className="flex gap-2 items-center mt-5 md:mx-auto border-[1px] border-slate-100 px-3 py-2  rounded hover:bg-white hover:text-black transition-all">
+                Contact Us
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </button>
+            </a>
           </div>
         </div>
       </section>
@@ -285,7 +314,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="services" className="our-services mont bg-neutral-100 py-5 mt-10">
+      <section
+        id="services"
+        className="our-services mont bg-neutral-100 py-5 mt-10"
+      >
         <div className="container">
           <div className="wrapper">
             <h1 className="font-bold mt-5 text-center text-xl">Our Services</h1>
@@ -501,9 +533,9 @@ export default function Home() {
                 ></textarea>
               </div>
               <p className="text-center text-xs mt-5 text-gray-500">
-                By clicking &quot;Submit&quot;, you are allowing United Candelaria Doctors
-                Hospital to store your personal information and keep in touch
-                with you if necessary.
+                By clicking &quot;Submit&quot;, you are allowing United
+                Candelaria Doctors Hospital to store your personal information
+                and keep in touch with you if necessary.
               </p>
               <button
                 type="submit"
@@ -516,76 +548,98 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="bg-gray-800 text-white py-8 mont text-sm" >
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-        
-        {/* Logo Section */}
-        <div>
-          <img src="/logo.jpg" alt="UNCDH" className="size-[200px] rounded-full mx-auto" />
-        
+      <footer className="bg-gray-800 text-white py-8 mont text-sm">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+          {/* Logo Section */}
+          <div>
+            <img
+              src="/logo.jpg"
+              alt="UNCDH"
+              className="size-[150px] rounded-full mx-auto"
+            />
+            <div>
+            <p className="text-center mt-5">Your trusted partner in health, committed to your care and well-being.</p>
+            </div>
+          </div>
+
+          {/* Quick Links Section */}
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
+            <ul>
+              <li className="mb-2">
+                <a href="#home" className="hover:text-gray-400">
+                  Home
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="#about" className="hover:text-gray-400">
+                  About Us
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="#services" className="hover:text-gray-400">
+                  Services
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="#contact" className="hover:text-gray-400">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Details Section */}
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
+            <ul>
+              <li className="mb-2">
+                <span>Email: </span>
+                <a
+                  href="mailto:contact@example.com"
+                  className="hover:text-gray-400"
+                >
+                  contact.uncdh@gmail.com
+                </a>
+              </li>
+             
+              <li className="mb-2">
+                <span>Address: </span>1 Main Street, Candelaria, Quezon
+              </li>
+              <li className="mb-2">
+                <span>Opening Hours:</span>
+                <p>Monday to Friday: 8:00 AM – 6:00 PM</p>
+                <p>Saturday: 8:00 AM – 2:00 PM</p>
+                <p className="bg-white text-xs rounded p-0.5 px-2 font-bold text-gray-800 mt-2 w-max flex items-center gap-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="3"
+                    stroke="currentColor"
+                    class="size-5 text-red-600"
+                    
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 4.5v15m7.5-7.5h-15"
+                    />
+                  </svg>
+                  24/7 Emergency Services Available
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        {/* Quick Links Section */}
-        <div>
-          <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-          <ul>
-            <li className="mb-2">
-              <a href="#home" className="hover:text-gray-400">
-                Home
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#about" className="hover:text-gray-400">
-                About Us
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#services" className="hover:text-gray-400">
-                Services
-              </a>
-            </li>
-            <li className="mb-2">
-              <a href="#contact" className="hover:text-gray-400">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        {/* Contact Details Section */}
-        <div>
-          <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-          <ul>
-            <li className="mb-2">
-              <span>Email: </span>
-              <a href="mailto:contact@example.com" className="hover:text-gray-400">
-                contact.uncdh@gmail.com
-              </a>
-            </li>
-            <li className="mb-2">
-              <span>Phone: </span>
-              <a href="tel:+63421234567" className="hover:text-gray-400">
-              +63 42 123 4567
-              </a>
-            </li>
-            <li className="mb-2">
-              <span>Address: </span>
-              123 Main Street, Candelaria, Quezon
-            </li>
-          </ul>
-        </div>
-
-
-      </div>
-
-      
-    </footer>
+      </footer>
 
       <footer className="py-2 bg-[#212121] select-none text-neutral-300 font-light inter text-xs">
         <div className="container">
           <div className="wrapper">
             <h1 className="text-center">
-              © 2024 United Candelaria Doctors Hospital, CTX Softwares Philippines
+              © 2024 United Candelaria Doctors Hospital, CTX Softwares
+              Philippines
             </h1>
           </div>
         </div>
@@ -630,16 +684,36 @@ export default function Home() {
                   </motion.svg>
                 </div>
                 <ul className="pb-3 mt-3">
-      
-                  <a onClick={() => {setMobileNav(false)}} href="#about"><li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
-                    About
-                  </li></a>
-                  <a onClick={() => {setMobileNav(false)}} href="#services"><li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
-                    Services
-                  </li></a>
-                  <a onClick={() => {setMobileNav(false)}} href="#contact"><li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
-                    Contact
-                  </li></a>
+                  <a
+                    onClick={() => {
+                      setMobileNav(false);
+                    }}
+                    href="#about"
+                  >
+                    <li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
+                      About
+                    </li>
+                  </a>
+                  <a
+                    onClick={() => {
+                      setMobileNav(false);
+                    }}
+                    href="#services"
+                  >
+                    <li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
+                      Services
+                    </li>
+                  </a>
+                  <a
+                    onClick={() => {
+                      setMobileNav(false);
+                    }}
+                    href="#contact"
+                  >
+                    <li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
+                      Contact
+                    </li>
+                  </a>
                 </ul>
               </motion.div>
             </div>
