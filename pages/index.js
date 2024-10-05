@@ -515,6 +515,72 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <footer className="bg-gray-800 text-white py-8 mont text-sm" >
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+        
+        {/* Logo Section */}
+        <div>
+          <img src="/logo.jpg" alt="UNCDH" className="size-[200px] rounded-full mx-auto" />
+        
+        </div>
+
+        {/* Quick Links Section */}
+        <div>
+          <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+          <ul>
+            <li className="mb-2">
+              <a href="#home" className="hover:text-gray-400">
+                Home
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="#about" className="hover:text-gray-400">
+                About Us
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="#services" className="hover:text-gray-400">
+                Services
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="#contact" className="hover:text-gray-400">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Contact Details Section */}
+        <div>
+          <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+          <ul>
+            <li className="mb-2">
+              <span>Email: </span>
+              <a href="mailto:contact@example.com" className="hover:text-gray-400">
+                contact.uncdh@gmail.com
+              </a>
+            </li>
+            <li className="mb-2">
+              <span>Phone: </span>
+              <a href="tel:+63421234567" className="hover:text-gray-400">
+              +63 42 123 4567
+              </a>
+            </li>
+            <li className="mb-2">
+              <span>Address: </span>
+              123 Main Street, Candelaria, Quezon
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+
+      
+    </footer>
+
       <footer className="py-2 bg-[#212121] select-none text-neutral-300 font-light inter text-xs">
         <div className="container">
           <div className="wrapper">
