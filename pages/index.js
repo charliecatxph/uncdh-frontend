@@ -501,7 +501,7 @@ export default function Home() {
                 ></textarea>
               </div>
               <p className="text-center text-xs mt-5 text-gray-500">
-                By clicking "Submit", you are allowing United Candelaria Doctors
+                By clicking &quot;Submit&quot;, you are allowing United Candelaria Doctors
                 Hospital to store your personal information and keep in touch
                 with you if necessary.
               </p>
