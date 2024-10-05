@@ -631,13 +631,13 @@ export default function Home() {
                 </div>
                 <ul className="pb-3 mt-3">
       
-                  <a href="#about"><li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
+                  <a onClick={() => {setMobileNav(false)}} href="#about"><li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
                     About
                   </li></a>
-                  <a href="#services"><li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
+                  <a onClick={() => {setMobileNav(false)}} href="#services"><li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
                     Services
                   </li></a>
-                  <a href="#contact"><li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
+                  <a onClick={() => {setMobileNav(false)}} href="#contact"><li className="py-3 px-5 font-semibold hover:bg-neutral-100 rounded-lg transition-colors">
                     Contact
                   </li></a>
                 </ul>
