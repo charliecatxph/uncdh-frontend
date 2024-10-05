@@ -410,7 +410,7 @@ export default function Home() {
             </p>
             <form
               method="POST"
-              action="https://formsubmit.co/contact.uncdh@gmail.com"
+              action="https://formsubmit.co/569bfd70ebae6a66223f0246c2aaa14e"
               className="flex flex-col gap-2 mt-5"
             >
               <div className="grid gap-2 md:grid-cols-3">
